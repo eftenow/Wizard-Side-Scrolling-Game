@@ -1,2 +1,2 @@
 # Wizard-Side-Scrolling-Game
-JS Advanced Workshop
+Softuni JS Advanced Workshop

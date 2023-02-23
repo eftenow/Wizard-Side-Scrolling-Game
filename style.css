@@ -1,0 +1,112 @@
+body {
+    font-family: consolas;
+    margin: 0;
+}
+
+.start-screen {
+    position: relative;
+    background: linear-gradient(
+    0deg, rgba(61, 160, 244, 1) 0%, rgba(192, 221, 246, 1) 33%, rgba(55, 157, 244, 1) 100%);
+    width: 100%;
+    height: 657px;
+    margin: 0;
+}
+
+.start-button {
+    font-family: consolas;
+    font-size: 36px;
+    border: none;
+    border-radius: 40px;
+    background-color: springgreen;
+    color: darkolivegreen;
+    width: 37%;
+    height: 60px;
+    margin-left: 31%;
+    margin-top: 8%;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.game-screen {
+    position: relative;
+    background: linear-gradient(
+    0deg, rgba(61, 160, 244, 1) 0%, rgba(192, 221, 246, 1) 33%, rgba(55, 157, 244, 1) 100%);
+    width: 100%;
+    height: 657px;
+    margin: 0;
+}
+
+.wizard {
+    background-image: url(./images/wizard.png);
+    position: absolute;
+    width: 82px;
+    height: 100px;
+    display: block;
+}
+
+.wizard-fire {
+    background-image: url(./images/wizard-fire.png);
+}
+
+.fireball {
+    background-image: url(./images/fire-ball.png);
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.cloud {
+    background-image: url(./images/cloud.png);
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+.score-board {
+    background-color: black;
+    width: 100%;
+    height: 20px;
+    display: inline-block;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.bug {
+    background-image: url(./images/bug.png);
+    background-size: cover;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+
+.player-stats {
+    background-color: black;
+    width: 100%;
+    height: 20px;
+    display: inline-block;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.game-over{
+    position: absolute;
+    width: 50%;
+    background-color: red;
+    top: 100px;
+    left: 25%;
+    z-index: 1;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    color: white;
+}

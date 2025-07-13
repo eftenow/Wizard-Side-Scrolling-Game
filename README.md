@@ -1,6 +1,6 @@
 <hr>
-<h2>Softuni JS Advanced Workshop - Wizard-Side-Scrolling-Game</h2>
-<p>This is a part of one of the most interesting Workshops in SoftUni, where we get to create browser game with only vanilla JS, HTML & CSS.</p>
+
+<p>Browser game with only vanilla JS, HTML & CSS.</p>
 <hr>
 
 <p>
